@@ -1,0 +1,22 @@
+.header__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.header__basket {
+    color: blueviolet;
+    position: relative;
+    cursor: pointer;
+}
+
+.header__basket__span {
+    position: absolute;
+    right: -10px;
+    top: -7px;
+    padding: 2px 6px;
+    border-radius: 30px;
+    background-color: blueviolet;
+    color: #ffffff;
+}

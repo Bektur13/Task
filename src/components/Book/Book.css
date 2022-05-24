@@ -1,0 +1,44 @@
+.book__content {
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    flex-wrap: wrap;
+}
+
+.book__box {
+    margin: 0 15px 30px 15px;
+}
+
+
+.book__img {
+    
+    max-width: 180px;
+}
+
+.book__title {
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
+    max-width: 200px;
+    text-align: center;
+}
+
+.book__btn {
+    margin: 15px 0;
+    width: 100%;
+    background-color: blueviolet;
+    border: none;
+    cursor: pointer;
+    padding: 15px 10px;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    /* border-radius: 30px; */
+}
+
+.book__description {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 10px;
+}
